@@ -45,7 +45,7 @@ bool RelayState = false;
 char auth[] = "YOUR AUTH TOKEN";  // Replace with your Blynk Auth Token
 
 // Flag for Wi-Fi reset
-bool shouldResetWiFi = false;
+bool shouldResetWiFi = true;
 
 void setup() {
   // Start Serial for debugging
